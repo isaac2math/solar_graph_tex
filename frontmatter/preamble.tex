@@ -1,0 +1,43 @@
+\RequirePackage{amsthm,amsmath,amsfonts,amssymb}
+\RequirePackage[authoryear]{natbib}
+\RequirePackage[colorlinks,linkcolor=red,citecolor=red,urlcolor=red]{hyperref}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{arydshln}
+\usepackage{color,soul}
+\usepackage{accents,float,graphicx,subfig,multirow,dcolumn,booktabs,lscape}
+\usepackage[a4paper,margin=23mm,centering]{geometry}
+\usepackage[ruled,linesnumbered]{algorithm2e}
+\usepackage{comment}
+
+\numberwithin{equation}{section}
+
+\theoremstyle{definition}
+\newtheorem{definition}{\protect\definitionname}
+\providecommand{\definitionname}{Definition}
+\numberwithin{definition}{section}
+
+\newcommand{\ind}{\perp\!\!\!\!\perp}
+\newcommand{\ts}{\rlap{$^{***}$}}
+\newcommand{\ds}{\rlap{$^{**}$}}
+\newcommand{\s}{\rlap{$^{*}$}}
+
+\def\spacingset#1{\renewcommand{\baselinestretch}{#1}\small\normalsize}\spacingset{1}
+
+\newcolumntype{.}{D{.}{.}{-1}}
+\definecolor{red}{rgb}{1.0, 0.0, 0.0}
+
+% path for figures
+\graphicspath{{figures/}}
+
+% Remove irritating PDFLaTeX warnings
+\pdfminorversion=6
+\pdfsuppresswarningpagegroup=1
+
+\makeatletter
+\def\ps@pprintTitle{%
+   \let\@oddhead\@empty
+   \let\@evenhead\@empty
+   \def\@oddfoot{\reset@font\hfil\thepage\hfil}
+   \let\@evenfoot\@oddfoot
+}
+\makeatother

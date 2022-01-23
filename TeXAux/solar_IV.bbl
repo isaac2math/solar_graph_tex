@@ -1,0 +1,195 @@
+\begin{thebibliography}{25}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Blyth(1972)}]{blyth1972simpson}
+\bibinfo{author}{Blyth, C.R.}, \bibinfo{year}{1972}.
+\newblock \bibinfo{title}{On simpson's paradox and the sure-thing principle}.
+\newblock \bibinfo{journal}{Journal of the American Statistical Association}
+  \bibinfo{volume}{67}, \bibinfo{pages}{364--366}.
+%Type = Book
+\bibitem[{Bollen(1989)}]{bollen1989structural}
+\bibinfo{author}{Bollen, K.A.}, \bibinfo{year}{1989}.
+\newblock \bibinfo{title}{Structural equations with latent variables}.
+\newblock \bibinfo{publisher}{John Wiley \& Sons}.
+%Type = Inproceedings
+\bibitem[{Brito and Pearl(2002)}]{brito2002generalized}
+\bibinfo{author}{Brito, C.}, \bibinfo{author}{Pearl, J.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{Generalized instrumental variables}, in:
+  \bibinfo{booktitle}{In A. Darwiche and N. Friedman, editors, Proceedings of
+  the Eighteenth conference on Uncertainty in artificial intelligence}, pp.
+  \bibinfo{pages}{85--93}.
+%Type = Article
+\bibitem[{Chickering(2002)}]{chickering2002optimal}
+\bibinfo{author}{Chickering, D.M.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{Optimal structure identification with greedy search}.
+\newblock \bibinfo{journal}{Journal of machine learning research}
+  \bibinfo{volume}{3}, \bibinfo{pages}{507--554}.
+%Type = Article
+\bibitem[{Chu et~al.(2013)Chu, Scheines and Spirtes}]{chu2013semi}
+\bibinfo{author}{Chu, T.}, \bibinfo{author}{Scheines, R.},
+  \bibinfo{author}{Spirtes, P.L.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Semi-instrumental variables: a test for instrument
+  admissibility}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1301.2261} .
+%Type = Article
+\bibitem[{Efron et~al.(2004)Efron, Hastie, Johnstone and
+  Tibshirani}]{efronall04}
+\bibinfo{author}{Efron, B.}, \bibinfo{author}{Hastie, T.},
+  \bibinfo{author}{Johnstone, I.}, \bibinfo{author}{Tibshirani, R.},
+  \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Least angle regression}.
+\newblock \bibinfo{journal}{Annals of Statistics} \bibinfo{volume}{32},
+  \bibinfo{pages}{407--499}.
+%Type = Article
+\bibitem[{Fan and Lv(2008)}]{fan2008sure}
+\bibinfo{author}{Fan, J.}, \bibinfo{author}{Lv, J.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Sure independence screening for ultrahigh dimensional
+  feature space}.
+\newblock \bibinfo{journal}{Journal of the Royal Statistical Society: Series B
+  (Statistical Methodology)} \bibinfo{volume}{70}, \bibinfo{pages}{849--911}.
+%Type = Incollection
+\bibitem[{Geiger and Heckerman(1994)}]{geiger1994learning}
+\bibinfo{author}{Geiger, D.}, \bibinfo{author}{Heckerman, D.},
+  \bibinfo{year}{1994}.
+\newblock \bibinfo{title}{Learning gaussian networks}, in:
+  \bibinfo{booktitle}{Uncertainty Proceedings 1994}.
+  \bibinfo{publisher}{Elsevier}, pp. \bibinfo{pages}{235--243}.
+%Type = Article
+\bibitem[{Hoyer et~al.(2008)Hoyer, Janzing, Mooij, Peters and
+  Sch{\"o}lkopf}]{hoyer2008nonlinear}
+\bibinfo{author}{Hoyer, P.}, \bibinfo{author}{Janzing, D.},
+  \bibinfo{author}{Mooij, J.M.}, \bibinfo{author}{Peters, J.},
+  \bibinfo{author}{Sch{\"o}lkopf, B.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Nonlinear causal discovery with additive noise
+  models}.
+\newblock \bibinfo{journal}{Advances in neural information processing systems}
+  \bibinfo{volume}{21}, \bibinfo{pages}{689--696}.
+%Type = Article
+\bibitem[{Jia and Yu(2010)}]{jia2010model}
+\bibinfo{author}{Jia, J.}, \bibinfo{author}{Yu, B.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{On model selection consistency of the elastic net
+  when $p>>n$}.
+\newblock \bibinfo{journal}{Statistica Sinica} , \bibinfo{pages}{595--611}.
+%Type = Book
+\bibitem[{Koller and Friedman(2009)}]{koller2009probabilistic}
+\bibinfo{author}{Koller, D.}, \bibinfo{author}{Friedman, N.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Probabilistic graphical models: principles and
+  techniques}.
+\newblock \bibinfo{publisher}{MIT press}.
+%Type = Inproceedings
+\bibitem[{Kuroki and Cai(2005)}]{kuroki2005instrumental}
+\bibinfo{author}{Kuroki, M.}, \bibinfo{author}{Cai, Z.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Instrumental variable tests for directed acyclic
+  graph models.}, in: \bibinfo{booktitle}{AISTATS}.
+%Type = Book
+\bibitem[{Pearl(2009)}]{pearl2009causality}
+\bibinfo{author}{Pearl, J.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Causality: models, reasoning, and inference}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+%Type = Article
+\bibitem[{Pratt and Schlaifer(1988)}]{pratt1988interpretation}
+\bibinfo{author}{Pratt, J.W.}, \bibinfo{author}{Schlaifer, R.},
+  \bibinfo{year}{1988}.
+\newblock \bibinfo{title}{On the interpretation and observation of laws}.
+\newblock \bibinfo{journal}{Journal of Econometrics} \bibinfo{volume}{39},
+  \bibinfo{pages}{23--52}.
+%Type = Book
+\bibitem[{Scutari and Denis(2014)}]{scutari2014bayesian}
+\bibinfo{author}{Scutari, M.}, \bibinfo{author}{Denis, J.B.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Bayesian networks: with examples in R}.
+\newblock \bibinfo{publisher}{Chapman and Hall/CRC}.
+%Type = Article
+\bibitem[{Shimizu et~al.(2006)Shimizu, Hoyer, Hyv{\"a}rinen and
+  Kerminen}]{shimizu2006linear}
+\bibinfo{author}{Shimizu, S.}, \bibinfo{author}{Hoyer, P.O.},
+  \bibinfo{author}{Hyv{\"a}rinen, A.}, \bibinfo{author}{Kerminen, A.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{A linear non-gaussian acyclic model for causal
+  discovery}.
+\newblock \bibinfo{journal}{Journal of Machine Learning Research}
+  \bibinfo{volume}{7}, \bibinfo{pages}{2003--2030}.
+%Type = Article
+\bibitem[{Silva and Shimizu(2017)}]{silva2017learning}
+\bibinfo{author}{Silva, R.}, \bibinfo{author}{Shimizu, S.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Learning instrumental variables with structural and
+  non-gaussianity assumptions}.
+\newblock \bibinfo{journal}{The Journal of Machine Learning Research}
+  \bibinfo{volume}{18}, \bibinfo{pages}{4321--4369}.
+%Type = Article
+\bibitem[{Simpson(1951)}]{simpson1951interpretation}
+\bibinfo{author}{Simpson, E.H.}, \bibinfo{year}{1951}.
+\newblock \bibinfo{title}{The interpretation of interaction in contingency
+  tables}.
+\newblock \bibinfo{journal}{Journal of the Royal Statistical Society: Series B
+  (Methodological)} \bibinfo{volume}{13}, \bibinfo{pages}{238--241}.
+%Type = Book
+\bibitem[{Spirtes et~al.(2000a)Spirtes, Glymour, Scheines and
+  Heckerman}]{spirtes2000causation}
+\bibinfo{author}{Spirtes, P.}, \bibinfo{author}{Glymour, C.},
+  \bibinfo{author}{Scheines, R.}, \bibinfo{author}{Heckerman, D.},
+  \bibinfo{year}{2000}a.
+\newblock \bibinfo{title}{Causation, prediction, and search}.
+\newblock \bibinfo{publisher}{MIT press}.
+%Type = Misc
+\bibitem[{Spirtes et~al.(2000b)Spirtes, Glymour, Scheines, Kauffman, Aimale and
+  Wimberly}]{spirtes2000constructing}
+\bibinfo{author}{Spirtes, P.}, \bibinfo{author}{Glymour, C.},
+  \bibinfo{author}{Scheines, R.}, \bibinfo{author}{Kauffman, S.},
+  \bibinfo{author}{Aimale, V.}, \bibinfo{author}{Wimberly, F.},
+  \bibinfo{year}{2000}b.
+\newblock \bibinfo{title}{Constructing {Bayesian} network models of gene
+  expression networks from microarray data}.
+%Type = Article
+\bibitem[{Tibshirani et~al.(2012)Tibshirani, Bien, Friedman, Hastie, Simon,
+  Taylor and Tibshirani}]{tibshirani2012strong}
+\bibinfo{author}{Tibshirani, R.}, \bibinfo{author}{Bien, J.},
+  \bibinfo{author}{Friedman, J.}, \bibinfo{author}{Hastie, T.},
+  \bibinfo{author}{Simon, N.}, \bibinfo{author}{Taylor, J.},
+  \bibinfo{author}{Tibshirani, R.J.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Strong rules for discarding predictors in lasso-type
+  problems}.
+\newblock \bibinfo{journal}{Journal of the Royal Statistical Society: Series B
+  (Statistical Methodology)} \bibinfo{volume}{74}, \bibinfo{pages}{245--266}.
+%Type = Incollection
+\bibitem[{Verma and Pearl(1990)}]{verma1990causal}
+\bibinfo{author}{Verma, T.}, \bibinfo{author}{Pearl, J.}, \bibinfo{year}{1990}.
+\newblock \bibinfo{title}{Causal networks: Semantics and expressiveness}, in:
+  \bibinfo{booktitle}{Machine intelligence and pattern recognition}.
+  \bibinfo{publisher}{Elsevier}. volume~\bibinfo{volume}{9}, pp.
+  \bibinfo{pages}{69--76}.
+%Type = Article
+\bibitem[{Xu et~al.(2019)Xu, Fisher and Hong}]{ning2019solar}
+\bibinfo{author}{Xu, N.}, \bibinfo{author}{Fisher, T.}, \bibinfo{author}{Hong,
+  J.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Solar: a least-angle regression for accurate and
+  stable variable selection in high-dimensional data}.
+\newblock \bibinfo{journal}{arXiv preprint, arXiv:2007.15707} .
+%Type = Article
+\bibitem[{Zhao and Yu(2006)}]{zhaoyu06}
+\bibinfo{author}{Zhao, P.}, \bibinfo{author}{Yu, B.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{On model selection consistency of {Lasso}}.
+\newblock \bibinfo{journal}{Journal of Machine Learning Research}
+  \bibinfo{volume}{7}, \bibinfo{pages}{2541--2563}.
+%Type = Article
+\bibitem[{Zou and Hastie(2005)}]{zou2005regularization}
+\bibinfo{author}{Zou, H.}, \bibinfo{author}{Hastie, T.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Regularization and variable selection via the elastic
+  net}.
+\newblock \bibinfo{journal}{Journal of the royal statistical society: series B
+  (statistical methodology)} \bibinfo{volume}{67}, \bibinfo{pages}{301--320}.
+
+\end{thebibliography}
