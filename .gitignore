@@ -2,7 +2,8 @@
 /figures_slides
 /supp_file
 **/.DS_Store
-/TeXAux/old_version.tex
-/.DS_Store
-/section_1_TIM.tex
-/it_review.tex
+/TeXAux/
+.DS_Store
+section_1_TIM.tex
+lit_review.tex
+.gitignore
